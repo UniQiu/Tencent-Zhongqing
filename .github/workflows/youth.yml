@@ -28,7 +28,8 @@ jobs:
         with:
           node-version: 12.x
       - name: npm install
-        
+        run: |
+          npm install
         if: env.YOUTH_HEADER
         run: |
           node Task/youth.js
