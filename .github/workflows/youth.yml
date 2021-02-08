@@ -20,7 +20,7 @@ jobs:
         YOUTH_REDBODY: ${{ secrets.YOUTH_REDBODY }}
         YOUTH_TIME: ${{ secrets.YOUTH_READTIMEBODY }}
     steps:
-      - name: Checkout
+      - uses: actions/checkout@v1
         #run: |
           #git clone https://github.com/Sunert/Scripts.git ~/Scripts
       - name: Use Node.js 12.x
