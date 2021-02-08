@@ -21,8 +21,8 @@ jobs:
         YOUTH_TIME: ${{ secrets.YOUTH_TIME }}
     steps:
       - name: Checkout
-        run: |
-          git clone https://github.com/Sunert/Scripts.git ~/Scripts
+       # run: |
+          #git clone https://github.com/Sunert/Scripts.git ~/Scripts
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
