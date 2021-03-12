@@ -28,7 +28,7 @@ jobs:
         run: |
           node Task/youth1.js
         env:
-          YOUTH_NOTIFY_CONTROL: ${{ secrets.YOUTH_NOTIFY_CONTROL }}
+        
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_USER_ID: ${{ secrets.TG_USER_ID }}
