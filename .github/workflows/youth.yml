@@ -16,8 +16,10 @@ jobs:
     env:
         YOUTH_HEADER: ${{ secrets.YOUTH_HEADER }}
         YOUTH_ARTBODY: ${{ secrets.YOUTH_ARTBODY }}
-        YOUTH_REDBODY: ${{ secrets.YOUTH_REDBODY }}
+        YOUTH_READ: ${{ secrets.YOUTH_READ }}
         YOUTH_TIME: ${{ secrets.YOUTH_TIME }}
+        YOUTH_START: ${{ secrets.YOUTH_START }}
+        YOUTH_END: ${{ secrets.YOUTH_END }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
